@@ -1,0 +1,19 @@
+public void bfs();
+{
+    Quee v = newinkedList();
+    v.add(this.rootNode);
+	  printNode(this.rootNode);
+    rootNode.visited=true;
+    while(!v.isEmpty()
+	{
+		  Node n=(Node)v.remove();
+	  	Node child=null;
+		while((child=getUnivisitedchild(n))!null)
+		{
+		  child.visited=true;
+		  printNode(child);
+		  v.add(child);
+		}
+	}
+ clearNodes();
+}
